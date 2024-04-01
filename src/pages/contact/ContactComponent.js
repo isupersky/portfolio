@@ -5,15 +5,15 @@ import TopButton from "../../components/topButton/TopButton";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
 import BlogsImg from "./BlogsImg";
-import AddressImg from "./AddressImg";
+// import AddressImg from "./AddressImg";
 import { Fade } from "react-reveal";
 import "./ContactComponent.css";
 import { greeting, contactPageData } from "../../portfolio.js";
 
 const ContactData = contactPageData.contactSection;
 const blogSection = contactPageData.blogSection;
-const addressSection = contactPageData.addressSection;
-const phoneSection = contactPageData.phoneSection;
+// const addressSection = contactPageData.addressSection;
+// const phoneSection = contactPageData.phoneSection;
 
 class Contact extends Component {
   render() {
@@ -46,7 +46,7 @@ class Contact extends Component {
                 <SocialMedia theme={theme} />
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="See My LinkedIn"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}

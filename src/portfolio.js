@@ -22,11 +22,11 @@ const seo = {
 const greeting = {
   title: "Aakash Sinha",
   logo_name: "AakashSinha",
-  nickname: "@isupersky",
+  nickname: "Know over internet as @isupersky",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
   resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing",
+    "https://www.linkedin.com/in/aakash9868sinha/",
   portfolio_repository: "https://github.com/isupersky?tab=repositories",
   githubProfile: "https://github.com/isupersky",
 };
@@ -75,12 +75,12 @@ const socialMediaLinks = [
   //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
   //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
   // },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/i_aakashsinha/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/i_aakashsinha/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -140,7 +140,7 @@ const skills = {
       softwareSkills: [
         {
           skillName: "Java",
-          fontAwesomeClassname: "simple-icons:java",
+          fontAwesomeClassname: "simple-icons:intellijidea",
           style: {
             color: "#E34F26",
           },
@@ -177,6 +177,13 @@ const skills = {
         {
           skillName: "gradle",
           fontAwesomeClassname: "simple-icons:gradle",
+          style: {
+            color: "#CB3837",
+          },
+        },
+        {
+          skillName: "Apache Maven",
+          fontAwesomeClassname: "simple-icons:apachemaven",
           style: {
             color: "#CB3837",
           },
@@ -294,56 +301,57 @@ const skills = {
 
 // Education Page
 const competitiveSites = {
-  competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/layman_brother/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/layman_brother",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/ashutosh_1919",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "http://codeforces.com/profile/layman_brother",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@ashutosh391",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/laymanbrother",
-    },
-  ],
+  competitiveSites: []
+  // [
+  //   {
+  //     siteName: "LeetCode",
+  //     iconifyClassname: "simple-icons:leetcode",
+  //     style: {
+  //       color: "#F79F1B",
+  //     },
+  //     profileLink: "https://leetcode.com/layman_brother/",
+  //   },
+  //   {
+  //     siteName: "HackerRank",
+  //     iconifyClassname: "simple-icons:hackerrank",
+  //     style: {
+  //       color: "#2EC866",
+  //     },
+  //     profileLink: "https://www.hackerrank.com/layman_brother",
+  //   },
+  //   {
+  //     siteName: "Codechef",
+  //     iconifyClassname: "simple-icons:codechef",
+  //     style: {
+  //       color: "#5B4638",
+  //     },
+  //     profileLink: "https://www.codechef.com/users/ashutosh_1919",
+  //   },
+  //   {
+  //     siteName: "Codeforces",
+  //     iconifyClassname: "simple-icons:codeforces",
+  //     style: {
+  //       color: "#1F8ACB",
+  //     },
+  //     profileLink: "http://codeforces.com/profile/layman_brother",
+  //   },
+  //   {
+  //     siteName: "Hackerearth",
+  //     iconifyClassname: "simple-icons:hackerearth",
+  //     style: {
+  //       color: "#323754",
+  //     },
+  //     profileLink: "https://www.hackerearth.com/@ashutosh391",
+  //   },
+  //   {
+  //     siteName: "Kaggle",
+  //     iconifyClassname: "simple-icons:kaggle",
+  //     style: {
+  //       color: "#20BEFF",
+  //     },
+  //     profileLink: "https://www.kaggle.com/laymanbrother",
+  //   },
+  // ],
 };
 
 const degrees = {
