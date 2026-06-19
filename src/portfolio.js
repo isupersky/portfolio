@@ -412,14 +412,25 @@ const experience = {
       work: true,
       experiences: [
         {
+          title: "Software development Engineer 3",
+          company: "Bharatpe",
+          company_url: "https://bharatpe.com/",
+          logo_path: "Freecharge_logo.png",
+          duration: "June 2025 - Present",
+          location: "gurgaon, Haryana",
+          description:
+            "",
+          color: "#0879bf",
+        },
+        {
           title: "Senior Software Engineer",
           company: "Freecharge Payment Technologies Pvt. Ltd",
           company_url: "https://freecharge.com/",
           logo_path: "Freecharge_logo.png",
-          duration: "April 2022 - Present",
+          duration: "April 2022 - May 2025",
           location: "gurgaon, Haryana",
           description:
-            "FreeCharge is a wholly-owned subsidiary of Axis Bank Limited, is India's No.1 payments app. Working on lending products. The projects involve automating the process of lending for the customer. I am currently scaling the core loan Management service, which is responsible for all the accounting/calculations at different life stages of a loan. Along side it i have worked on integrating muliple payment gateways and payment mode such as NACH, Standing Instructions and Manual payments for smooth collection of funds(RePayments) from the users",
+            "FreeCharge is a wholly-owned subsidiary of Axis Bank Limited, is a payments app. Working on lending products. The projects involve automating the process of lending for the customer. I am currently scaling the core loan Management service, which is responsible for all the accounting/calculations at different life stages of a loan. Along side it i have worked on integrating muliple payment gateways and payment mode such as NACH, Standing Instructions and Manual payments for smooth collection of funds(RePayments) from the users",
           color: "#0879bf",
         },
         {
@@ -430,7 +441,7 @@ const experience = {
           duration: "July 2021 - Mar 2022",
           location: "gurgaon, Haryana",
           description:
-            "FreeCharge is a wholly-owned subsidiary of Axis Bank Limited, is India's No.1 payments app. I was Involved in development of the loan Management service, which is responsible for all the accounting/calculations at different life stages of a loan.",
+            "FreeCharge is a wholly-owned subsidiary of Axis Bank Limited, is a payments app. I was Involved in development of the loan Management service, which is responsible for all the accounting/calculations at different life stages of a loan.",
           color: "#9b1578",
         },
         {
